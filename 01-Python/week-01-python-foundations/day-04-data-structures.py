@@ -63,12 +63,20 @@
 # print(f"Total salary: Rs. {total_salary}")
 
 #Challenge 7 — Nested Dictionaries
-employee = {'name': "Amulya", 'role': "SDE2", 'skills': {'Python': "Advanced", 'SQL': "Advanced", 'Snowflake': "Intermediate"}}
-print("Employee:", employee['name'])
-print("Role:", employee['role'])
-for skill, level in employee['skills'].items():
-    if skill in ("Python", "Snowflake"):
-        print(f"{skill}: {level}")
-employee['skills']['Snowflake'] = "Advanced"  # Update skill level
-employee['skills']['AWS'] = "Beginner"  # Add new skill
-print("Updated Employee:", employee)
+# employee = {'name': "Amulya", 'role': "AI Engineer", 'skills': {'Python': "Advanced", 'SQL': "Advanced", 'Snowflake': "Intermediate"}}
+# print("Employee:", employee['name'])
+# print("Role:", employee['role'])
+# for skill, level in employee['skills'].items():
+#     if skill in ("Python", "Snowflake"):
+#         print(f"{skill}: {level}")
+# employee['skills']['Snowflake'] = "Advanced"  # Update skill level
+# employee['skills']['AWS'] = "Beginner"  # Add new skill
+# print("Updated Employee:", employee)
+
+#Challenge 8 — Sets
+categories = {"Food", "Travel", "Food", "Shopping", "Travel", "Bills", "Food"}
+print("Set:", categories)
+categories.add("Entertainment")  # Add new category
+categories.add("Food")  # Add a category
+print("Updated Set:", categories)
+print("Number of unique categories:", len(categories))
