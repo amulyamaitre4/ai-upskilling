@@ -74,12 +74,12 @@
 #         print(f"{e}: Valid")
 
 #Challenge 8 — Function Scope
-tax_rate = 0.18
-def calculate_tax(amount):
-    tax = amount * tax_rate
-    return tax
-calculated_tax = calculate_tax(1000)
-print("Tax: Rs.", calculated_tax)
+# tax_rate = 0.18
+# def calculate_tax(amount):
+#     tax = amount * tax_rate
+#     return tax
+# calculated_tax = calculate_tax(1000)
+# print("Tax: Rs.", calculated_tax)
 
 
 #Challenge 9 — Function Composition
@@ -96,4 +96,4 @@ def calculate_final_price(price, percentage, tax_rate):
 
 discounted_price,final_price =calculate_final_price(1000, 10, 0.18)
 print("Discounted Price: Rs.", discounted_price)
-print("Final Price: Rs.", final_price)
+print("Final Price after tax: Rs.", final_price)
